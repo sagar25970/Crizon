@@ -28,3 +28,9 @@ My Playground
 ~python manage.py runserver
 2. You can configure this on Pycharm Server configurations
 3. Hit http://127.0.0.1:8000/playground/health/ to check health of your server.
+
+
+# Setup after Git
+py -m venv .venv
+.venv/Scripts/activate
+pipenv install --dev

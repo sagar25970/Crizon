@@ -7,9 +7,11 @@ name = "pypi"
 django = "*"
 
 [dev-packages]
+django-debug-toolbar = "*"
 
 [requires]
 python_version = "3.10"
 
 [scripts]
-set_env="echo hello world"
+setup-python = "D:/Git/Crizon/scripts/setup-python.ps1"
+test-file = "D:/Git/Crizon/scripts/test-file.ps1"

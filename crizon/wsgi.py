@@ -1,5 +1,5 @@
 """
-WSGI config for Crizon project.
+WSGI config for crizon project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Crizon.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crizon.settings')
 
 application = get_wsgi_application()
